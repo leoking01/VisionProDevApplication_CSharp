@@ -584,9 +584,11 @@ namespace VisionControl
       bool canSaveSettings = !running && mCurrentAccessLevel >= AccessLevel.Supervisor;
 
       btnRun.Enabled = !mInitError && !running;
-      button_Configuration.Enabled = !mInitError && canConfig;
+      //button_Configuration.Enabled = !mInitError && canConfig;
+      button_Configuration.Enabled =   !running  ;
       button_SaveSettings.Enabled = !mInitError && canSaveSettings;
-      button_About.Enabled = !running;
+      //button_About.Enabled = !running;
+      button_About.Enabled =  true;
 
       if (mInitError)
       {
@@ -601,6 +603,9 @@ namespace VisionControl
       checkBox_LiveDisplay.Enabled = !mInitError && currentJobCanLive &&
         ((mCurrentRunState == RunState.Stopped && checkBox_LiveDisplay.Checked == false) ||
          (mCurrentRunState == RunState.RunningLive && checkBox_LiveDisplay.Checked == true));
+      //checkBox_LiveDisplay.Enabled = true;
+
+
 
       btnRunCont.Enabled = !mInitError && (!running || runningContinuous);
       btnRunCont.Text = runningContinuous ? (ResourceUtility.GetString("RtStopButton")) :

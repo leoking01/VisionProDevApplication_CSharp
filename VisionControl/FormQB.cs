@@ -53,29 +53,30 @@ namespace VisionControl
     /// </summary>
     private void InitializeComponent()
     {
-      this.cogJobManagerEdit1 = new Cognex.VisionPro.QuickBuild.CogJobManagerEdit();
-      this.SuspendLayout();
-      // 
-      // cogJobManagerEdit1
-      // 
-      this.cogJobManagerEdit1.Dock = System.Windows.Forms.DockStyle.Fill;
-      this.cogJobManagerEdit1.Location = new System.Drawing.Point(0, 0);
-      this.cogJobManagerEdit1.Name = "cogJobManagerEdit1";
-      this.cogJobManagerEdit1.Size = new System.Drawing.Size(728, 454);
-      this.cogJobManagerEdit1.Subject = null;
-      this.cogJobManagerEdit1.TabIndex = 0;
-      // 
-      // FormQB
-      // 
-      this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
-      this.ClientSize = new System.Drawing.Size(728, 454);
-      this.Controls.Add(this.cogJobManagerEdit1);
-      this.Name = "FormQB";
-      this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-      this.Text = "Configuration";
-      this.Closing += new System.ComponentModel.CancelEventHandler(this.FormQB_Closing);
-      this.Load += new System.EventHandler(this.FormQB_Load);
-      this.ResumeLayout(false);
+        this.cogJobManagerEdit1 = new Cognex.VisionPro.QuickBuild.CogJobManagerEdit();
+        this.SuspendLayout();
+        // 
+        // cogJobManagerEdit1
+        // 
+        this.cogJobManagerEdit1.Dock = System.Windows.Forms.DockStyle.Fill;
+        this.cogJobManagerEdit1.Location = new System.Drawing.Point(0, 0);
+        this.cogJobManagerEdit1.Name = "cogJobManagerEdit1";
+        this.cogJobManagerEdit1.ShowLocalizationTab = false;
+        this.cogJobManagerEdit1.Size = new System.Drawing.Size(728, 454);
+        this.cogJobManagerEdit1.Subject = null;
+        this.cogJobManagerEdit1.TabIndex = 0;
+        // 
+        // FormQB
+        // 
+        this.AutoScaleBaseSize = new System.Drawing.Size(6, 14);
+        this.ClientSize = new System.Drawing.Size(728, 454);
+        this.Controls.Add(this.cogJobManagerEdit1);
+        this.Name = "FormQB";
+        this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+        this.Text = "Configuration";
+        this.Closing += new System.ComponentModel.CancelEventHandler(this.FormQB_Closing);
+        this.Load += new System.EventHandler(this.FormQB_Load);
+        this.ResumeLayout(false);
 
     }
     #endregion
