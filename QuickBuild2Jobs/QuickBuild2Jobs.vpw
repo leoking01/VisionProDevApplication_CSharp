@@ -1,0 +1,196 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:CogApplicationWizardSettings id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">
+<VppFilename id="ref-3">QuickBuild2Jobs.vpp</VppFilename>
+<ApplicationName id="ref-4">QuickBuild2Jobs</ApplicationName>
+<SelectedConfigurationModeAccess xsi:type="a1:CogConfigurationModeAccess" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">QuickBuild</SelectedConfigurationModeAccess>
+<SelectedSourceLanguage xsi:type="a1:CogSourceLanguage" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">NoSource</SelectedSourceLanguage>
+<ApplicationTemplateDirectory xsi:type="xsd:anyType" xsi:null="1"/>
+<ApplicationOutputDirectory id="ref-5">appwizard</ApplicationOutputDirectory>
+<UsePasswords>true</UsePasswords>
+<DefaultAdministratorPassword id="ref-6">admin</DefaultAdministratorPassword>
+<DefaultSupervisorPassword id="ref-7">super</DefaultSupervisorPassword>
+<LocalizationStringsFilename id="ref-8"></LocalizationStringsFilename>
+<TabsArray href="#ref-9"/>
+<RunExecutable>true</RunExecutable>
+</a1:CogApplicationWizardSettings>
+<SOAP-ENC:Array id="ref-9" SOAP-ENC:arrayType="a1:CogDesignerGUITab[4]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">
+<item href="#ref-10"/>
+<item href="#ref-11"/>
+<item href="#ref-12"/>
+<item href="#ref-13"/>
+</SOAP-ENC:Array>
+<a1:CogDesignerGUITab id="ref-10" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">
+<JobIndex>0</JobIndex>
+<Caption id="ref-14">Camera 1 Results</Caption>
+<AccessLevel xsi:type="a1:CogAccessLevel" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">Operator</AccessLevel>
+<ItemsArray href="#ref-15"/>
+</a1:CogDesignerGUITab>
+<a1:CogDesignerGUITab id="ref-11" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">
+<JobIndex>0</JobIndex>
+<Caption id="ref-16">Camera 1 Settings</Caption>
+<AccessLevel xsi:type="a1:CogAccessLevel" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">Supervisor</AccessLevel>
+<ItemsArray href="#ref-17"/>
+</a1:CogDesignerGUITab>
+<a1:CogDesignerGUITab id="ref-12" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">
+<JobIndex>1</JobIndex>
+<Caption id="ref-18">Camera 2 Results</Caption>
+<AccessLevel xsi:type="a1:CogAccessLevel" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">Operator</AccessLevel>
+<ItemsArray href="#ref-19"/>
+</a1:CogDesignerGUITab>
+<a1:CogDesignerGUITab id="ref-13" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">
+<JobIndex>1</JobIndex>
+<Caption id="ref-20">Camera 2 Settings</Caption>
+<AccessLevel xsi:type="a1:CogAccessLevel" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">Supervisor</AccessLevel>
+<ItemsArray href="#ref-21"/>
+</a1:CogDesignerGUITab>
+<SOAP-ENC:Array id="ref-15" SOAP-ENC:arrayType="a1:CogDesignerGUIItem[2]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">
+<item href="#ref-22"/>
+<item href="#ref-23"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-17" SOAP-ENC:arrayType="a1:CogDesignerGUIItem[1]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">
+<item href="#ref-24"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-19" SOAP-ENC:arrayType="a1:CogDesignerGUIItem[1]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">
+<item href="#ref-25"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-21" SOAP-ENC:arrayType="a1:CogDesignerGUIItem[1]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">
+<item href="#ref-26"/>
+</SOAP-ENC:Array>
+<a1:CogDesignerGUIGroupItem id="ref-22" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">
+<Caption id="ref-27">Inspection Status</Caption>
+<ControlType xsi:type="a1:CogDesignerGUIItemType" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">Default</ControlType>
+<ItemsArray href="#ref-28"/>
+</a1:CogDesignerGUIGroupItem>
+<a1:CogDesignerGUIGroupItem id="ref-23" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">
+<Caption id="ref-29">Inspection Results</Caption>
+<ControlType xsi:type="a1:CogDesignerGUIItemType" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">Default</ControlType>
+<ItemsArray href="#ref-30"/>
+</a1:CogDesignerGUIGroupItem>
+<a1:CogDesignerGUIGroupItem id="ref-24" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">
+<Caption id="ref-31">Timeout</Caption>
+<ControlType xsi:type="a1:CogDesignerGUIItemType" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">Default</ControlType>
+<ItemsArray href="#ref-32"/>
+</a1:CogDesignerGUIGroupItem>
+<a1:CogDesignerGUIGroupItem id="ref-25" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">
+<Caption id="ref-33">Inspection Status</Caption>
+<ControlType xsi:type="a1:CogDesignerGUIItemType" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">Default</ControlType>
+<ItemsArray href="#ref-34"/>
+</a1:CogDesignerGUIGroupItem>
+<a1:CogDesignerGUIGroupItem id="ref-26" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">
+<Caption id="ref-35">Settings</Caption>
+<ControlType xsi:type="a1:CogDesignerGUIItemType" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">Default</ControlType>
+<ItemsArray href="#ref-36"/>
+</a1:CogDesignerGUIGroupItem>
+<SOAP-ENC:Array id="ref-28" SOAP-ENC:arrayType="a1:CogDesignerGUIJobItem[2]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">
+<item href="#ref-37"/>
+<item href="#ref-38"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-30" SOAP-ENC:arrayType="a1:CogDesignerGUIJobItem[2]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">
+<item href="#ref-39"/>
+<item href="#ref-40"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-32" SOAP-ENC:arrayType="a1:CogDesignerGUIJobItem[2]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">
+<item href="#ref-41"/>
+<item href="#ref-42"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-34" SOAP-ENC:arrayType="a1:CogDesignerGUIJobItem[3]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">
+<item href="#ref-43"/>
+<item href="#ref-44"/>
+<item href="#ref-45"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-36" SOAP-ENC:arrayType="a1:CogDesignerGUIJobItem[1]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">
+<item href="#ref-46"/>
+</SOAP-ENC:Array>
+<a1:CogDesignerGUIJobItem id="ref-37" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">
+<Caption id="ref-47">Status:</Caption>
+<ControlType xsi:type="a1:CogDesignerGUIItemType" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">TextBox</ControlType>
+<JobIndex>0</JobIndex>
+<JobPath id="ref-48">RunStatus.Result</JobPath>
+<PathType xsi:type="a1:CogJobPathType" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">FromUserQueue</PathType>
+<ControlWidgetData href="#ref-8"/>
+<ItemFlags xsi:type="a1:CogJobItemFlags" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">None</ItemFlags>
+</a1:CogDesignerGUIJobItem>
+<a1:CogDesignerGUIJobItem id="ref-38" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">
+<Caption id="ref-49">Time (ms):</Caption>
+<ControlType xsi:type="a1:CogDesignerGUIItemType" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">TextBox</ControlType>
+<JobIndex>0</JobIndex>
+<JobPath id="ref-50">RunStatus.TotalTime</JobPath>
+<PathType xsi:type="a1:CogJobPathType" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">FromUserQueue</PathType>
+<ControlWidgetData href="#ref-8"/>
+<ItemFlags xsi:type="a1:CogJobItemFlags" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">None</ItemFlags>
+</a1:CogDesignerGUIJobItem>
+<a1:CogDesignerGUIJobItem id="ref-39" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">
+<Caption id="ref-51">Decoded:</Caption>
+<ControlType xsi:type="a1:CogDesignerGUIItemType" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">TextBox</ControlType>
+<JobIndex>0</JobIndex>
+<JobPath id="ref-52">Tools.Item[&#34;Cog2DSymbolTool1&#34;].Cog2DSymbolTool.Result.Decoded</JobPath>
+<PathType xsi:type="a1:CogJobPathType" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">FromUserQueue</PathType>
+<ControlWidgetData href="#ref-8"/>
+<ItemFlags xsi:type="a1:CogJobItemFlags" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">None</ItemFlags>
+</a1:CogDesignerGUIJobItem>
+<a1:CogDesignerGUIJobItem id="ref-40" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">
+<Caption id="ref-53">Decoded String:</Caption>
+<ControlType xsi:type="a1:CogDesignerGUIItemType" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">TextBox</ControlType>
+<JobIndex>0</JobIndex>
+<JobPath id="ref-54">Tools.Item[&#34;Cog2DSymbolTool1&#34;].Cog2DSymbolTool.Result.DecodedString</JobPath>
+<PathType xsi:type="a1:CogJobPathType" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">FromUserQueue</PathType>
+<ControlWidgetData href="#ref-8"/>
+<ItemFlags xsi:type="a1:CogJobItemFlags" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">None</ItemFlags>
+</a1:CogDesignerGUIJobItem>
+<a1:CogDesignerGUIJobItem id="ref-41" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">
+<Caption id="ref-55">Timeout Enabled</Caption>
+<ControlType xsi:type="a1:CogDesignerGUIItemType" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">CheckBox</ControlType>
+<JobIndex>0</JobIndex>
+<JobPath id="ref-56">Tools.Item[&#34;Cog2DSymbolTool1&#34;].(Cognex.VisionPro.TwoDSymbol.Cog2DSymbolTool).RunParams.TimeoutEnabled</JobPath>
+<PathType xsi:type="a1:CogJobPathType" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">ToolProperty</PathType>
+<ControlWidgetData href="#ref-8"/>
+<ItemFlags xsi:type="a1:CogJobItemFlags" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">None</ItemFlags>
+</a1:CogDesignerGUIJobItem>
+<a1:CogDesignerGUIJobItem id="ref-42" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">
+<Caption id="ref-57">Timeout (ms):</Caption>
+<ControlType xsi:type="a1:CogDesignerGUIItemType" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">NumberBox</ControlType>
+<JobIndex>0</JobIndex>
+<JobPath id="ref-58">Tools.Item[&#34;Cog2DSymbolTool1&#34;].(Cognex.VisionPro.TwoDSymbol.Cog2DSymbolTool).RunParams.Timeout</JobPath>
+<PathType xsi:type="a1:CogJobPathType" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">ToolProperty</PathType>
+<ControlWidgetData href="#ref-8"/>
+<ItemFlags xsi:type="a1:CogJobItemFlags" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">None</ItemFlags>
+</a1:CogDesignerGUIJobItem>
+<a1:CogDesignerGUIJobItem id="ref-43" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">
+<Caption id="ref-59">Status:</Caption>
+<ControlType xsi:type="a1:CogDesignerGUIItemType" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">TextBox</ControlType>
+<JobIndex>1</JobIndex>
+<JobPath id="ref-60">RunStatus.Result</JobPath>
+<PathType xsi:type="a1:CogJobPathType" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">FromUserQueue</PathType>
+<ControlWidgetData href="#ref-8"/>
+<ItemFlags xsi:type="a1:CogJobItemFlags" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">None</ItemFlags>
+</a1:CogDesignerGUIJobItem>
+<a1:CogDesignerGUIJobItem id="ref-44" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">
+<Caption id="ref-61">Time (ms):</Caption>
+<ControlType xsi:type="a1:CogDesignerGUIItemType" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">TextBox</ControlType>
+<JobIndex>1</JobIndex>
+<JobPath id="ref-62">RunStatus.TotalTime</JobPath>
+<PathType xsi:type="a1:CogJobPathType" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">FromUserQueue</PathType>
+<ControlWidgetData href="#ref-8"/>
+<ItemFlags xsi:type="a1:CogJobItemFlags" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">None</ItemFlags>
+</a1:CogDesignerGUIJobItem>
+<a1:CogDesignerGUIJobItem id="ref-45" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">
+<Caption id="ref-63">Score:</Caption>
+<ControlType xsi:type="a1:CogDesignerGUIItemType" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">TextBox</ControlType>
+<JobIndex>1</JobIndex>
+<JobPath id="ref-64">Tools.Item[&#34;CogPMAlignTool1&#34;].CogPMAlignTool.Results.Item[0].Score</JobPath>
+<PathType xsi:type="a1:CogJobPathType" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">FromUserQueue</PathType>
+<ControlWidgetData href="#ref-8"/>
+<ItemFlags xsi:type="a1:CogJobItemFlags" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">None</ItemFlags>
+</a1:CogDesignerGUIJobItem>
+<a1:CogDesignerGUIJobItem id="ref-46" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">
+<Caption id="ref-65">Accept Threshold:</Caption>
+<ControlType xsi:type="a1:CogDesignerGUIItemType" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">NumberBox</ControlType>
+<JobIndex>1</JobIndex>
+<JobPath id="ref-66">Tools.Item[&#34;CogPMAlignTool1&#34;].(Cognex.VisionPro.PMAlign.CogPMAlignTool).RunParams.AcceptThreshold</JobPath>
+<PathType xsi:type="a1:CogJobPathType" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">ToolProperty</PathType>
+<ControlWidgetData href="#ref-8"/>
+<ItemFlags xsi:type="a1:CogJobItemFlags" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Cognex.VisionPro.ApplicationWizard.Implementation.Internal/Cognex.VisionPro.ApplicationWizard.Core%2C%20Version%3D29.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Def0f902af9dee505">None</ItemFlags>
+</a1:CogDesignerGUIJobItem>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
